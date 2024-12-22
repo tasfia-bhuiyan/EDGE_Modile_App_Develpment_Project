@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Event Management</string>
+
+    <string-array name="locations_array">
+        <item>Hathazari</item>
+        <item>Chawkbazar</item>
+        <item>GEC</item>
+        <item>Bhodarhhat</item>
+    </string-array>
+
+    <string name="api_key">AIzaSyB1tFWsS8bj2Afc2WHIiAD_gG_dG-9i0F4</string>
+</resources>

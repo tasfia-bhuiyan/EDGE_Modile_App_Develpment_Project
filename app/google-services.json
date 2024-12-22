@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "585369273193",
+    "project_id": "edge-em-221272",
+    "storage_bucket": "edge-em-221272.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585369273193:android:78eb939886d4e4f47df3f8",
+        "android_client_info": {
+          "package_name": "com.example.eventmanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1McT3QrIGv6oh3ImxsQuH_Duy23oVLLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".getstarted"
+    android:paddingStart="15dp"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Event Management"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="App"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Find your events organized!"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="5dp">
+
+            <!-- TextView with Arrow -->
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Get Started"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:drawableEnd="@drawable/baseline_arrow_right_alt_24"
+                android:textSize="45dp"
+                android:textStyle="bold"
+                />
+
+
+            <!-- Button Beside the TextView -->
+            <Button
+                android:id="@+id/btnsign"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:backgroundTint="#E3E4E1"
+                android:text="Start" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

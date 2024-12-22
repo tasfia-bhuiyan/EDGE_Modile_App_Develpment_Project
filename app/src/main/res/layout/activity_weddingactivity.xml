@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".weddingactivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="Event Description" />
+
+        <!-- Label for Date Picker -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="12dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="4dp"
+            android:text="Select Event Date:"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="12dp">
+
+            <EditText
+                android:id="@+id/datePicker"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Select Event Date"
+                android:textColorHint="@color/white"
+                android:focusable="false" />
+
+            <ImageView
+                android:id="@+id/calendarIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_today"
+                android:contentDescription="Calendar Icon"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <!-- Label for Time Picker -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="12dp"
+            android:paddingBottom="4dp"
+            android:text="Select Event Time:"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/timePicker"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Select Event Time"
+            android:textColorHint="@color/white"
+            android:focusable="false" />
+
+        <!-- Label for Location Spinner -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="12dp"
+            android:paddingBottom="4dp"
+            android:text="Select Location:"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <Spinner
+            android:id="@+id/locationSpinner"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginBottom="16dp"
+
+            />
+
+        <!-- Label for Description -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="12dp"
+            android:paddingBottom="4dp"
+            android:text="Event Description:"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Enter Event Description"
+            android:textColorHint="@color/white"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:maxLines="5"
+            android:scrollbars="vertical" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/save"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:backgroundTint="#E3E4E1"
+            android:text="Save"/>
+    </LinearLayout>
+
+</ScrollView>
